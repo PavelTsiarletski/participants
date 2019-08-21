@@ -1,0 +1,40 @@
+.dialog-header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(215, 216, 224);
+    padding: 0 20px;
+}
+
+.person {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online {
+    color: rgb(24, 177, 238);
+}
+
+.offline {
+    color: gray;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.list-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: rgb(215, 216, 224) solid 1px;
+    min-width: 500px;
+}
+
+.dialog-text {
+    width: 500px;
+    padding: 0 20px;
+}
